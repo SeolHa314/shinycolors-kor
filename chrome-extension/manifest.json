@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+    "name": "샤니마스 한글패치",
+    "description": "빵집의 좆본어 한국어로 대체되었다.",
+    "version": "1.0",
+    "permissions": [
+        "<all_urls>",
+        "webRequest",
+        "webRequestBlocking",
+        "tabs", 
+        "activeTab"
+    ],
+    "content_scripts": 
+    [
+        {
+            "matches":["*://shinycolors.enza.fun/*"],
+            "js":["jquery-3.3.1.min.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "background": {
+        "scripts": [
+            "jquery-3.3.1.min.js",
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "샤니마스 한글패치"
+    },
+    "icons": {
+        "128": "icon.png"
+    }
+}
