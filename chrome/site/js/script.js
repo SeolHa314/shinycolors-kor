@@ -32,18 +32,20 @@ $(".active-btn").on("click", function(e){
 
 $('#update-btn').on("click", function(e){
     $.ajax({
-        url: 'https://maxkss.github.io/shinycolors-helper/version.txt',
+        url: 'https://maxkss.github.io/shinycolors-helper/version.json',
         type: 'get',
+        dataType : 'json',
+        cache:false,
         success: function (data) {
-            var latest = parseFloat(data);
             var version = parseFloat($('#now-version').text())
             
-            if (latest == version){
+            if (data.kor == version){
                 $('#go-download').text("최신버전 입니다")
+                $('#go-download').attr('href', '#')
             }
-            else if(latest > version){
+            else if(data.kor > version){
                 $('#go-download').text("최신버전이 있습니다 (클릭 시 이동)")
-                $('#go-download').attr('href', 'http://naver.com')
+                $('#go-download').attr('href', 'https://github.com/MaxKss/shinycolors-kor/releases')
             }
             $('#go-download').show();
         },
@@ -51,5 +53,8 @@ $('#update-btn').on("click", function(e){
 })
 
 $("#go-download").on("click", function(e){
-    chrome.tabs.create({url: $(this).attr('href')});
+    event.preventDefault();
+    if($(this).attr('href') != "#"){
+        chrome.tabs.create({url: $(this).attr('href')});
+    }
 })

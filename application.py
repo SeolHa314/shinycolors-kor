@@ -53,7 +53,7 @@ def translate():
         array.append(temp)
 
     commuKo = ""
-    for i in array:
+    for i in array: # 번역하기
         translator = Translator()
         result = (translator.translate(i, src = "ja", dest='ko').text) #번역하기
         commuKo += result+"\n\n\n"
@@ -104,7 +104,7 @@ def translate():
             if i[0]['filename'] == filename:
                 flag = False
         if flag:
-            r.append(jsonData)
+            r.append(temp)
 
     with open(os.getcwd()+'/커뮤 대사 기록.json', 'w+', -1, "UTF-8") as w:
         w.write(json.dumps(r, ensure_ascii = False, sort_keys=True, indent=4))
@@ -114,6 +114,6 @@ def translate():
 
 
 if __name__ == '__main__':
-    print("샤니마스 한글패치 v2.0\n구동 시작했습니다 즐거운 샤니마스 되세요")
+    print("샤니마스 한글패치 v2.2\n구동 시작했습니다 즐거운 샤니마스 되세요")
     print(os.getcwd())
     app.run(port=4030)
