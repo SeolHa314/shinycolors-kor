@@ -25,7 +25,8 @@ def translate():
 
         for i in jsonData:
             if 'id' in i:
-                filename = str(i['id'])[:9]
+                filename = str(i['id'])
+                break
     elif reqType == "url":
         param = request.args.get('data')
         filename = param[param.rfind("/")+1:]
@@ -112,8 +113,7 @@ def translate():
 
     return json.dumps(jsonData, ensure_ascii = False )
 
-
 if __name__ == '__main__':
-    print("샤니마스 한글패치 v2.2\n구동 시작했습니다 즐거운 샤니마스 되세요")
+    print("샤니마스 한글패치 v2.3\n구동 시작했습니다 즐거운 샤니마스 되세요")
     print(os.getcwd())
     app.run(port=4030)
