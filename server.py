@@ -1,4 +1,7 @@
 # -*- encoding: utf-8 -*-
+# 샤니마스 한글패치 로컬서버
+# 작성자: maxkss
+# 마지막 업데이트: 2019년 3월 1일
 from flask import Flask, request, jsonify
 from googletrans import Translator
 from flask_cors import CORS, cross_origin

@@ -4,8 +4,7 @@
     "description": "빵집의 좆본어 한국어로 대체되었다.",
     "version": "2.3",
     "permissions": [
-        "*://shinycolors.enza.fun/*",
-        "*://api.shinycolors.enza.fun/*",
+        "<all_urls>",
         "webRequest",
         "webRequestBlocking",
         "storage",

@@ -1,0 +1,715 @@
+[
+    [
+        {
+            "bg": "00014",
+            "bgm": "016",
+            "charAnim1": "wait4",
+            "charAnim2": "face_close",
+            "charCategory": "stand_jersey",
+            "charId": "002",
+            "charLabel": "hiori",
+            "charLipAnim": "lip_wait",
+            "charPosition": {
+                "order": 0,
+                "x": 568,
+                "y": 640
+            },
+            "charType": "characters",
+            "filename": "100200105",
+            "id": 1002001050010,
+            "speaker": "히오리",
+            "text": "ふぅ……もうちょっとリズムを意識して……",
+            "text-ko": "후우 ...... 좀 리듬을 의식하고 ......",
+	"text-patch": "후우... 좀만 더 리듬을 의식해서......",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050010"
+        },
+        {
+            "charAnim1": "wait1",
+            "charAnim2": "blank",
+            "charLabel": "hiori",
+            "charLipAnim": "lip_angry",
+            "id": 1002001050020,
+            "speaker": "히오리",
+            "text": "あ……\r\nプロデューサー、いつから見てたんですか？",
+            "text-ko": "아 ......\r\n프로듀서 언제부터보고 있었나요?",
+	"text-patch": "아......\r\n프로듀서, 언제부터 보고 있으셨나요?",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050020"
+        },
+        {
+            "charLabel": "hiori",
+            "speaker": "프로듀서",
+            "text": "ついさっきからだよ\r\n仕事がひと段落したから見に来たんだが……",
+            "text-ko": "바로 조금에서이야\r\n일이 일단락했기 때문 보러 온 것이지만 ......",
+	"text-patch": "아까 조금 전부터였어\r\n일이 일단락 됐으니까 보러 온건데......",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "charLabel": "hiori",
+            "speaker": "프로듀서",
+            "text": "朝からずっとレッスンしてるじゃないか\r\n大丈夫か？",
+            "text-ko": "아침부터 계속 레슨 잖아\r\n괜찮 을까?",
+	"text-patch": "아침부터 계속 레슨하고 있었구나\r\n괜찮아?",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "charAnim1": "wait3",
+            "charAnim3": "yes",
+            "charAnim3Loop": false,
+            "charLabel": "hiori",
+            "charLipAnim": "lip_wait",
+            "id": 1002001050030,
+            "speaker": "히오리",
+            "text": "はい。まだまだやるつもりです\r\nイベント、必ず成功させたいので",
+            "text-ko": "예. 아직 할 생각입니다\r\n이벤트 꼭 성공하고 싶어서",
+	"text-patch": "네, 아직 더 할 생각이에요\r\n이벤트, 꼭 성공하고 싶으니까",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050030"
+        },
+        {
+            "charAnim1": "sad3",
+            "charAnim2": "face_close",
+            "charAnim3": "blank",
+            "charLabel": "hiori",
+            "charLipAnim": "lip_wait",
+            "id": 1002001050040,
+            "speaker": "히오리",
+            "text": "プロデューサーが企画してくれた、\r\n初めてのファンイベントですから……",
+            "text-ko": "프로듀서가 기획 해 준,\r\n첫 팬 이벤트이기 때문에 ......",
+	"text-patch": "프로듀서가 기획해 준,\r\n첫 팬이벤트 이니까......",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050040"
+        },
+        {
+            "charAnim1": "wait3",
+            "charLabel": "hiori",
+            "speaker": "프로듀서",
+            "text": "ユニットとしても知名度が上がってきているから\r\nそろそろいいタイミングだと思ってな",
+            "text-ko": "유닛으로도 지명도가 올라오고 있기 때문\r\n이제 좋은 타이밍이라고 생각 마라",
+	"text-patch": "유닛으로도 지명도가 오르고 있으니까\r\n좋은 타이밍이라고 생각했어",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "charLabel": "hiori",
+            "speaker": "프로듀서",
+            "text": "俺も全力で準備頑張ってるから\r\n当日、楽しみにしててくれ！",
+            "text-ko": "나도 전력으로 준비 열심히 하니까\r\n당일 기대해 줘!",
+	"text-patch": "나도 전력으로 준비 열심히 할테니까\r\n그날, 기대해줘!",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "charAnim1": "wait2",
+            "charAnim2": "blank",
+            "charLabel": "hiori",
+            "charLipAnim": "lip_smile",
+            "id": 1002001050050,
+            "speaker": "히오리",
+            "text": "はい、私も全力でレッスンしておきます\r\nよろしくお願いします",
+            "text-ko": "그래, 나도 전력으로 레슨 해 둡니다\r\n잘 부탁드립니다",
+	"text-patch": "네, 저도 전력으로 레슨 해 둘게요\r\n잘 부탁 드릴게요",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050050"
+        },
+        {
+            "effectLabel": "black1",
+            "effectTarget": {
+                "color": "000000",
+                "height": 640,
+                "type": "rect",
+                "width": 1136
+            },
+            "effectValue": {
+                "alpha": 0,
+                "time": 1000,
+                "type": "from",
+                "x": 1000
+            }
+        },
+        {
+            "waitTime": 2000,
+            "waitType": "time"
+        },
+        {
+            "charEffect": {
+                "alpha": 0,
+                "time": 100,
+                "type": "to"
+            },
+            "charLabel": "hiori",
+            "effectLabel": "black1",
+            "effectValue": {
+                "alpha": 0,
+                "easing": "easeInQuart",
+                "time": 1000,
+                "type": "to"
+            }
+        },
+        {
+            "bg": "00008",
+            "charAnim1": "surp1",
+            "charAnim2": "face_sad",
+            "charCategory": "stand_costume",
+            "charEffect": {
+                "alpha": 0,
+                "time": 100,
+                "type": "from"
+            },
+            "charId": "002",
+            "charLabel": "hiori",
+            "charLipAnim": "lip_sad",
+            "charPosition": {
+                "order": 0,
+                "x": 568,
+                "y": 640
+            },
+            "charType": "characters",
+            "id": 1002001050060,
+            "speaker": "히오리",
+            "text": "……",
+            "text-ko": "......",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050060"
+        },
+        {
+            "charLabel": "hiori",
+            "speaker": "프로듀서",
+            "text": "灯織、準備は出来てるみたいだな……\r\nってぼんやりしてどうしたんだ？",
+            "text-ko": "灯織 준비는 할 수있는 것 같군 ......\r\n라고 멍하니 어떻게 한거야?",
+	"text-patch": "히오리, 준비는 다 된거 같네......\r\n-그런데 멍하니 뭐 하고 있어?",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "charAnim1": "wait3",
+            "charAnim2": "face_anger",
+            "charAnim3": "no",
+            "charAnim3Loop": false,
+            "charLabel": "hiori",
+            "charLipAnim": "lip_sad",
+            "id": 1002001050070,
+            "speaker": "히오리",
+            "text": "あ……いえ、すみません\r\nちょっと、客席のほうを見てたんですが……",
+            "text-ko": "아 ...... 아니, 미안\r\n조금 객석 쪽을보고 했습니다만 ......",
+	"text-patch": "아.... 아뇨, 죄송해요\r\n잠깐, 객석 쪽 바라보고 있었는데요....",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050070"
+        },
+        {
+            "charLabel": "hiori",
+            "speaker": "프로듀서",
+            "text": "ああ！　すごい人数が集まってるだろう？",
+            "text-ko": "아! 대단한 인원수가 모여있는 것일까?",
+	"text-patch": "그렇구나! 정말 엄청나게 사람들 모였지?",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "charLabel": "hiori",
+            "speaker": "프로듀서",
+            "text": "本当に灯織は、すごいアイドルになったよな",
+            "text-ko": "정말 灯織은 대단한 아이돌이 된 거지",
+	"text-patch": "정말로 히오리가 굉장한 아이돌이 되었구나",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "charAnim1": "sad1",
+            "charAnim2": "blank",
+            "charLabel": "hiori",
+            "charLipAnim": "lip_sad",
+            "id": 1002001050080,
+            "speaker": "히오리",
+            "text": "そう……ですか？\r\nそうなんでしょうか？",
+            "text-ko": "그래 ......입니까?\r\n그렇까요?",
+	"text-patch": "그런..... 가요?\r\n그런 걸까요?",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050080"
+        },
+        {
+            "charLabel": "hiori",
+            "speaker": "프로듀서",
+            "text": "……何か納得できないことでもあるのか？",
+            "text-ko": "...... 뭔가 납득할 수없는 일이라도 있는가?",
+	"text-patch": "……뭔가 납득 안되는게 있어?",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "charAnim1": "anger1",
+            "charLabel": "hiori",
+            "charLipAnim": "lip_sad",
+            "id": 1002001050090,
+            "speaker": "히오리",
+            "text": "……その\r\n想像以上にたくさんの人が集まっているので……",
+            "text-ko": "...... 그\r\n생각보다 많은 사람들이 모여 있기 때문에 ......",
+	"text-patch": "......그게\r\n생각한 것보다 사람들이 많이 모여서...",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050090"
+        },
+        {
+            "charAnim3": "no",
+            "charAnim3Loop": false,
+            "charLabel": "hiori",
+            "charLipAnim": "lip_wait",
+            "id": 1002001050100,
+            "speaker": "히오리",
+            "text": "本当に、ここにいる全員が私のファンだなんて\r\nとても信じられなくて……",
+            "text-ko": "정말 여기있는 모두가 내 팬 이라니\r\n정말 믿을 수 없어서 ......",
+	"text-patch": "정말, 여기 있는 모든 분들이 제 팬이라니\r\n정말 믿을 수가 없어서...",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050100"
+        },
+        {
+            "charLabel": "hiori",
+            "speaker": "프로듀서",
+            "text": "灯織……ファンを疑うな",
+            "text-ko": "灯織 ...... 팬을 의심 하",
+	"text-patch": "히오리.... 팬을 의심하지 마",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "charAnim1": "sad3",
+            "charLabel": "hiori",
+            "charLipAnim": "lip_angry",
+            "id": 1002001050110,
+            "speaker": "히오리",
+            "text": "そうですよね……でも、私のためにこんな……",
+            "text-ko": "그렇죠 ......하지만 나를 위해 이런 ......",
+	"text-patch": "그렇네요..... 하지만, 저를 위해 이렇게......",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050110"
+        },
+        {
+            "charLabel": "hiori",
+            "speaker": "프로듀서",
+            "text": "……灯織は、自分のことが大嫌いだって言ってたな",
+            "text-ko": "...... 灯織은 자신의 것이 싫어도 말 했었지",
+	"text-patch": "......히오리는, 자기 자신이 정말 싫다고 말했었지?",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "charLabel": "hiori",
+            "speaker": "프로듀서",
+            "text": "今日のイベントで、自分がどんな人間なのか\r\nファンの声を聞いて確かめてこい",
+            "text-ko": "오늘의 이벤트에서 자신이 어떤 인간인가\r\n팬의 목소리를 듣고 확인 와라",
+	"text-patch": "오늘 이벤트에서, 자기가 어떤 사람이지\r\n팬들의 목소리를 듣고 확인하고 와",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "charAnim1": "surp2",
+            "charAnim3": "yes",
+            "charAnim3Loop": false,
+            "charLabel": "hiori",
+            "charLipAnim": "lip_wait",
+            "id": 1002001050120,
+            "speaker": "히오리",
+            "text": "……！\r\nわかりました。行ってきます……！",
+            "text-ko": "......!\r\n알았습니다. 다녀 오겠습니다 ...!",
+	"text-patch": "......!\r\n알겠어요, 다녀 올게요......!",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050120"
+        },
+        {
+            "effectLabel": "black2",
+            "effectTarget": {
+                "color": "000000",
+                "height": 640,
+                "type": "rect",
+                "width": 1136
+            },
+            "effectValue": {
+                "alpha": 0,
+                "time": 240,
+                "type": "from"
+            }
+        },
+        {
+            "waitTime": 1000,
+            "waitType": "time"
+        },
+        {
+            "charLabel": "hiori",
+            "effectLabel": "black2",
+            "effectValue": {
+                "alpha": 0,
+                "easing": "easeInQuart",
+                "time": 1000,
+                "type": "to"
+            }
+        },
+        {
+            "bg": "00012",
+            "charAnim1": "smile1",
+            "charAnim2": "blank",
+            "charLabel": "hiori",
+            "charLipAnim": "lip_smile",
+            "id": 1002001050130,
+            "speaker": "히오리",
+            "text": "――集まってくれた皆さん",
+            "text-ko": "- 모여 주신 여러분",
+	"text-patch": "――여기 와주신 여려분",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050130"
+        },
+        {
+            "charLabel": "hiori",
+            "charLipAnim": "lip_smile",
+            "id": 1002001050140,
+            "speaker": "히오리",
+            "text": "本当に……ありがとうございました！",
+            "text-ko": "정말 ...... 감사합니다!",
+	"text-patch": "정말..... 고마워요!!",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050140"
+        },
+        {
+            "effectLabel": "black3",
+            "effectTarget": {
+                "color": "000000",
+                "height": 640,
+                "type": "rect",
+                "width": 1136
+            },
+            "effectValue": {
+                "alpha": 0,
+                "time": 240,
+                "type": "from"
+            }
+        },
+        {
+            "waitTime": 1000,
+            "waitType": "time"
+        },
+        {
+            "charEffect": {
+                "alpha": 0,
+                "time": 100,
+                "type": "to"
+            },
+            "charLabel": "hiori",
+            "effectLabel": "black3",
+            "effectValue": {
+                "alpha": 0,
+                "easing": "easeInQuart",
+                "time": 1000,
+                "type": "to"
+            }
+        },
+        {
+            "bg": "00008",
+            "charLabel": "hiori",
+            "speaker": "프로듀서",
+            "text": "お疲れ、灯織！\r\n良いステージだったぞ！",
+            "text-ko": "피로, 灯織!\r\n좋은 무대였던거야!",
+	"text-patch": "수고했어 히오리!\r\n좋은 무대였어!",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "charAnim1": "wait3",
+            "charAnim2": "face_wait",
+            "charCategory": "stand_costume",
+            "charEffect": {
+                "alpha": 0,
+                "time": 100,
+                "type": "from"
+            },
+            "charId": "002",
+            "charLabel": "hiori",
+            "charLipAnim": "lip_sad",
+            "charPosition": {
+                "order": 0,
+                "x": 568,
+                "y": 640
+            },
+            "charType": "characters",
+            "id": 1002001050150,
+            "speaker": "히오리",
+            "text": "プロデューサー\r\nふぅ……あの……",
+            "text-ko": "프로듀서\r\n후우 ...... 그 ......",
+	"text-patch": "프로듀서\r\n후우...... 그게......",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050150"
+        },
+        {
+            "charAnim1": "sad3",
+            "charAnim2": "face_wait",
+            "charAnim3": "yes",
+            "charAnim3Loop": false,
+            "charLabel": "hiori",
+            "charLipAnim": "lip_smile",
+            "id": 1002001050160,
+            "speaker": "히오리",
+            "text": "……すごかった、です",
+            "text-ko": "...... 대단했다입니다",
+	"text-patch": "......굉장, 했어요",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050160"
+        },
+        {
+            "charAnim2": "face_close",
+            "charAnim3": "blank",
+            "charLabel": "hiori",
+            "charLipAnim": "lip_smile",
+            "id": 1002001050170,
+            "speaker": "히오리",
+            "text": "こんな私を……\r\n好きって言ってくれる人がたくさんいて……",
+            "text-ko": "이런 날 ......\r\n좋아한다고 말해주는 사람이 많이 있고 ......",
+	"text-patch": "이런 절.....\r\n좋아한다고 말해주는 사람들이 많이 있다니......",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050170"
+        },
+        {
+            "charLabel": "hiori",
+            "speaker": "프로듀서",
+            "text": "（すごく感動してるみたいだな……）",
+            "text-ko": "(몹시 감동하고있는 것 같군 ...)",
+	"text-patch": "(엄청 감동 받았나 보네.....)",
+            "textCtrl": "l",
+            "textFrame": "002"
+        },
+        {
+            "nextLabel": "1",
+            "select": "『こんな私』\r\nじゃないだろ",
+            "select-ko": "\"이런 나\"\r\n아니지",
+            "select-patch": "『이런 저』\r\n-가 아니잖아"
+        },
+        {
+            "nextLabel": "2",
+            "select": "最高のファンだな",
+            "select-ko": "최고의 팬 이구나",
+            "select-patch": "최고의 팬들이지"
+        },
+        {
+            "nextLabel": "3",
+            "select": "忘れられない\r\n思い出になるな",
+            "select-ko": "잊을 수없는\r\n추억이 되겠",
+            "select-patch": "잊지 못할\r\n추억이겠구나",
+            "textCtrl": "cm"
+        },
+        {
+            "charAnim1": "surp2",
+            "charAnim2": "blank",
+            "charAnim3": "blank",
+            "charLabel": "hiori",
+            "label": "1",
+            "speaker": "프로듀서",
+            "text": "灯織がここまで積み上げてきたすべてがつながって\r\nこんなにたくさんのファンができたんだ",
+            "text-ko": "등불 짠 여기까지 쌓아온 모든 것이 연결되어\r\n이렇게 많은 팬이 생긴거야",
+	"text-patch": "히오리가 지금까지 쌓아온 모든게 이어져서\r\n이렇게 많은 팬들이 생긴거야",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "charLabel": "hiori",
+            "speaker": "프로듀서",
+            "text": "そろそろ、今までの自分の頑張りと\r\n実績を認めてやったらどうだ？",
+            "text-ko": "이제 지금까지 자신의 노력과\r\n실적을 인정 겨우 어때?",
+	"text-patch": "이제 지금까지 스스로의 노력과\r\n실적을 인정 해주는 게 어때?",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "charAnim1": "smile2",
+            "charAnim2": "face_sad",
+            "charLabel": "hiori",
+            "charLipAnim": "lip_smile",
+            "id": 1002001050180,
+            "speaker": "히오리",
+            "text": "……はい、そうですね",
+            "text-ko": "...... 그래, 그렇지",
+	"text-patch": "......네, 그렇네요",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050180"
+        },
+        {
+            "charAnim2": "blank",
+            "charLabel": "hiori",
+            "charLipAnim": "lip_smile",
+            "id": 1002001050190,
+            "speaker": "히오리",
+            "text": "認めないと、ファンの方々にも失礼ですよね",
+            "text-ko": "인정하지 않으면 팬 분들에게도 실례군요",
+	"text-patch": "인정하지 않으면, 팬들에게도 실례니깐요",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050190"
+        },
+        {
+            "charLabel": "hiori",
+            "nextLabel": "end",
+            "speaker": "프로듀서",
+            "text": "（本当に、今日のイベントを企画して良かったな）",
+            "text-ko": "(정말 오늘의 이벤트를 기획하고 좋았다)",
+	"text-patch": "(오늘 이벤트 기획하길 정말 잘했다)",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "charAnim1": "wait3",
+            "charAnim2": "face_wait",
+            "charLabel": "hiori",
+            "charLipAnim": "lip_smile",
+            "id": 1002001050200,
+            "label": "2",
+            "speaker": "히오리",
+            "text": "はい\r\n本当に……私にはもったいないぐらいです",
+            "text-ko": "예\r\n정말 ...... 나는 아까울 정도입니다",
+	"text-patch": "네\r\n정말..... 저에게 아까울 정도에요",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050200"
+        },
+        {
+            "charLabel": "hiori",
+            "speaker": "프로듀서",
+            "text": "いいや、灯織にぴったりのファンだよ",
+            "text-ko": "아니, 등불 천에 딱 팬이야",
+	"text-patch": "아니, 히오리에게 딱 맞는 팬들이야",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "charAnim2": "face_wait",
+            "charAnim3": "yes",
+            "charAnim3Loop": false,
+            "charLabel": "hiori",
+            "charLipAnim": "lip_smile",
+            "id": 1002001050210,
+            "speaker": "히오리",
+            "text": "ありがとうございます",
+            "text-ko": "감사합니다",
+	"text-patch": "고마워요",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050210"
+        },
+        {
+            "charAnim1": "anger1",
+            "charAnim2": "blank",
+            "charAnim3": "no",
+            "charAnim3Loop": false,
+            "charLabel": "hiori",
+            "charLipAnim": "lip_shy",
+            "id": 1002001050220,
+            "speaker": "히오리",
+            "text": "……だとしたら、『私には』なんて言ってたら\r\nだめですよね",
+            "text-ko": "......라고하면 \"나에게\"뭐라고 말하고 있으면\r\n안하네요",
+	"text-patch": "......그렇다면, 『저에게』라고 말하면\r\n안되겠네요",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050220"
+        },
+        {
+            "charAnim1": "smile2",
+            "charAnim2": "face_wait",
+            "charAnim3": "blank",
+            "charLabel": "hiori",
+            "charLipAnim": "lip_smile",
+            "id": 1002001050230,
+            "speaker": "히오리",
+            "text": "もう……自分のことをちゃんと認めようと思います",
+            "text-ko": "또 ...... 자신을 잘 인정하려고 생각합니다",
+	"text-patch": "이제..... 저 스스로를 확실히 인정해 볼게요",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050230"
+        },
+        {
+            "charLabel": "hiori",
+            "nextLabel": "end",
+            "speaker": "프로듀서",
+            "text": "（本当に、最高のイベントになったな）",
+            "text-ko": "(정말 최고의 이벤트 되었군)",
+	"text-patch": "(진짜, 최고의 이벤트가 되었어)",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "text": "忘れられない思い出になるな",
+            "text-ko": "잊지 못할 추억이 될구나",
+	"text-patch": "잊지 못할 추억이 되겠구나",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "charAnim1": "wait3",
+            "charAnim2": "blank",
+            "charLabel": "hiori",
+            "charLipAnim": "lip_smile",
+            "id": 1002001050240,
+            "label": "3",
+            "speaker": "히오리",
+            "text": "はい。『W.I.N.G.』のステージに立っても\r\nもっとたくさんのファンに囲まれても――",
+            "text-ko": "예. \"W.I.N.G. '무대에 서서도\r\n더 많은 팬들에게 둘러싸여도 -",
+	"text-patch": "네 『W.I.N.G.』의 무대에 서서도\r\n더 많은 팬에게 둘러싸여도――",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050240"
+        },
+        {
+            "charLabel": "hiori",
+            "charLipAnim": "lip_smile",
+            "id": 1002001050250,
+            "speaker": "히오리",
+            "text": "今日のことは、きっとずっと\r\n私の記憶に残ると思います",
+            "text-ko": "오늘은 분명 계속\r\n내 기억에 남는 것 같아요",
+	"text-patch": "오늘은, 분명 계속\r\n제 기억에 남을 것 같아요",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050250"
+        },
+        {
+            "charAnim1": "sad3",
+            "charAnim2": "face_wait",
+            "charLabel": "hiori",
+            "charLipAnim": "lip_smile",
+            "id": 1002001050260,
+            "speaker": "히오리",
+            "text": "今日のことを心に刻んで\r\nよりアイドル活動に励んでいきたいと思います",
+            "text-ko": "오늘의 일을 마음에 새기고\r\n더 아이돌 활동에 힘 쓰고 싶다고 생각합니다",
+	"text-patch": "오늘 일을 제 마음에 새겨서\r\n좀 더 아이돌 활동에 힘쓰고 싶어요",
+            "textCtrl": "p",
+            "textFrame": "001",
+            "voice": "produce_events/100200105/1002001050260"
+        },
+        {
+            "charLabel": "hiori",
+            "speaker": "프로듀서",
+            "text": "（俺も、今日を忘れずにプロデュースを頑張ろう！）",
+            "text-ko": "(나도 오늘을 잊지 않고 제작을 노력하자!)",
+	"text-patch": "(나도, 오늘 잊지말고 프로듀스 열심히 해야겠다!)",
+            "textCtrl": "p",
+            "textFrame": "002"
+        },
+        {
+            "label": "end"
+        }
+    ]
+]

@@ -1,8 +1,3 @@
-var state = true;
-chrome.storage.local.get("state", function (result) {
-    state = result.state
-});
-
 chrome.webRequest.onBeforeRequest.addListener(
     function (details) {
         if( details.url.includes("shinycolors.enza.fun/app")){
@@ -11,10 +6,15 @@ chrome.webRequest.onBeforeRequest.addListener(
             }
         }
     }, {
-        urls: ["*://shinycolors.enza.fun/*"]
+        urls: ["*://shinycolors.enza.fun/app*"]
     },
     ["blocking"]
 );
+console.log("hey2")
+var state = true;
+chrome.storage.local.get("state", function (result) {
+    state = result.state
+});
 
 chrome.runtime.onMessage.addListener(
     function(request, sender, sendResponse) {
