@@ -1,3 +1,6 @@
+2019년 3월 1일 이후로 작동하지 않습니다
+-------------
+
 shinycolors-kor
 =============
 > The Korean translations for THE iDOLM@STER: Shiny Colors
