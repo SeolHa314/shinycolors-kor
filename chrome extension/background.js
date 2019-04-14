@@ -2,7 +2,7 @@ chrome.webRequest.onBeforeRequest.addListener(
     function (details) {
         if( details.url.includes("shinycolors.enza.fun/app")){
             return {
-                redirectUrl: "https://maxkss.github.io/shinycolors-helper/app.js"
+                redirectUrl: "https://api.hayasakamirei.ga/app.js"
             }
         }
     }, {

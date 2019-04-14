@@ -119,4 +119,4 @@ def translate():
 if __name__ == '__main__':
     print("샤니마스 한글패치 v2.3\n구동 시작했습니다 즐거운 샤니마스 되세요")
     print(os.getcwd())
-    app.run(port=4030)
+    app.run(port=41283)
