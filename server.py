@@ -71,7 +71,7 @@ def translate():
 
     temp = copy.deepcopy(jsonData)
 
-    cnt = 0;
+    cnt = 0
     for i in temp:
         if 'text' in i:
             i['text-ko'] = commuKo[cnt]
@@ -80,7 +80,7 @@ def translate():
             i['select-ko'] = commuKo[cnt]
             cnt+=1
 
-    cnt = 0;
+    cnt = 0
     for i in jsonData:
         if 'text' in i:
             if 'text-patch' in i:
@@ -119,4 +119,4 @@ def translate():
 if __name__ == '__main__':
     print("샤니마스 한글패치 v2.3\n구동 시작했습니다 즐거운 샤니마스 되세요")
     print(os.getcwd())
-    app.run(port=41283)
+    app.run(host="0.0.0.0", port=41283)
